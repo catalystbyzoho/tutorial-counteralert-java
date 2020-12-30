@@ -12,9 +12,9 @@ import java.util.logging.Level;
 public class CountAlert implements ZCFunction {
  private static final Logger LOGGER = Logger.getLogger(CountAlert.class.getName());
 
- private static final String FROM_EMAIL="srinath.pasupathi@gmail.com"; // The email address of the sender. Replace this with the email address you configured in Mail.
+ private static final String FROM_EMAIL="enter_your_from_email_address_here"; // The email address of the sender. Replace this with the email address you configured in Mail.
 
- private static final String TO_EMAIL="srinath.pasupathi@gmail.com"; // Replace this with the email address that you want the alert email to be sent to. 
+ private static final String TO_EMAIL="enter_your_to_email_address_here"; // Replace this with the email address that you want the alert email to be sent to. 
 
  @Override
     public void runner(Context context, BasicIO basicIO) throws Exception {
