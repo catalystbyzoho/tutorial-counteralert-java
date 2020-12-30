@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "countfunction"
+    ],
+    "ignore": [
+      ".output",
+      ".project",
+      ".classpath"
+    ],
+    "source": "functions"
+  }
+}

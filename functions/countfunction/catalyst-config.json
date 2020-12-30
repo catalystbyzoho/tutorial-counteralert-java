@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "countfunction",
+		"stack": "java8",
+		"type": "basicio"
+	},
+	"execution": {
+		"main": "CountAlert"
+	}
+}
